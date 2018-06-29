@@ -8,26 +8,26 @@
 ```
 .
 │
-├── album         						//图片资源库
+├── album								//图片资源库
 │   ├── album_cover_default.png			//默认覆盖图
 │   ├── default_goods_image_240.gif		//默认图片
 │   └── uoload_ing.gif					//上传进度
 │
-├── demo          						//系统效果图
+├── demo								//系统效果图
 │   └──  效果图.png						//效果图
 │
-├── js             						//系统js插件库
+├── js									//系统js插件库
 │   ├── ajax_file_upload.js
 │   ├── drag-arrange.js
 │   ├── jquery-1.8.1.min.js
 │   ├── jquery.fileupload.js
 │   └──  jquery.ui.widget.js
 │
-├── uploads          					//上传文件
-│   └── ......        					//所有上传的文件
+├── uploads								//上传文件
+│   └── ......							//所有上传的文件
 │
-├── index.html          				//系统项目入口文件
-├── upload.php            				//项目后台代码文件
+├── index.html							//系统项目入口文件
+├── upload.php							//项目后台代码文件
 │
 └── README.md
 
