@@ -258,12 +258,11 @@
 
     }
     //图片上传方法
-	//
+	//此方法备用，后续
     function file_upload(obj) {
         var spec_id = $(obj).attr("spec_id");
         var spec_value_id = $(obj).attr("spec_value_id");
         $('.sku-draggable-element' + spec_id + '-' + spec_value_id).arrangeable();
-        //sku图片上传
         $(obj).fileupload({
             url: "upload.php",
             dataType: 'json',
