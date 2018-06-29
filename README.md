@@ -37,4 +37,4 @@
 #### 效果展示
 
 效果图
-![输入图片说明](https://gitee.com/uploads/images/2018/0629/161022_6a886952_880238.png "效果图.png")
+![系统效果图](https://gitee.com/uploads/images/2018/0629/161022_6a886952_880238.png "效果图.png")
