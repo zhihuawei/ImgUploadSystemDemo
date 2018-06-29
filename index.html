@@ -261,7 +261,7 @@
 	//此方法备用，后续在使用中需要进行相应的修改，不能直接使用。
 	//有的一个页面有可能有两个上传图片地方，所以添加此方法。届时在
 	//<input style="cursor:pointer;font-size:0;" type="file" id="fileupload" hidefocus="true" class="input-file" name="file_upload" multiple="multiple"/>
-	//
+	//增加一个onclick事件就可以了：onclick="file_upload(this);"
     function file_upload(obj) {
         var spec_id = $(obj).attr("spec_id");
         var spec_value_id = $(obj).attr("spec_value_id");
