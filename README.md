@@ -8,12 +8,18 @@
 ```
 .
 │
-├── album         				//图片资源库
-    ├── album_cover_default.png	//默认覆盖图
-    ├── default_goods_image_240.gif	//默认图片
-    └── uoload_ing.gif			//上传进度
-├── demo          				//系统效果图
-├── SDK             //PhalApi提供的SDK包，客户可根据需要选用
+├── album         						//图片资源库
+    ├── album_cover_default.png			//默认覆盖图
+    ├── default_goods_image_240.gif		//默认图片
+    └── uoload_ing.gif					//上传进度
+├── demo          						//系统效果图
+    └──  效果图.png						//效果图
+├── js             						//系统js插件库
+    ├── ajax_file_upload.js
+    ├── drag-arrange.js
+    ├── jquery-1.8.1.min.js
+    ├── jquery.fileupload.js
+    └──  jquery.ui.widget.js
 │
 │
 ├── Public          //对外访问目录，建议隐藏PHP实现
