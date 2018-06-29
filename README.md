@@ -8,8 +8,11 @@
 ```
 .
 │
-├── PhalApi         //PhalApi框架，后期可以整包升级
-├── Library         //PhalApi扩展类库，可根据需要自由添加扩展
+├── album         				//图片资源库
+    ├── album_cover_default.png	//默认覆盖图
+    ├── default_goods_image_240.gif	//默认图片
+    └── uoload_ing.gif			//上传进度
+├── demo          				//系统效果图
 ├── SDK             //PhalApi提供的SDK包，客户可根据需要选用
 │
 │
