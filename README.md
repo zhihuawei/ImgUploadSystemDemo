@@ -9,34 +9,27 @@
 .
 │
 ├── album         						//图片资源库
-    ├── album_cover_default.png			//默认覆盖图
-    ├── default_goods_image_240.gif		//默认图片
-    └── uoload_ing.gif					//上传进度
+│   ├── album_cover_default.png			//默认覆盖图
+│   ├── default_goods_image_240.gif		//默认图片
+│   └── uoload_ing.gif					//上传进度
+│
 ├── demo          						//系统效果图
-    └──  效果图.png						//效果图
+│   └──  效果图.png						//效果图
+│
 ├── js             						//系统js插件库
-    ├── ajax_file_upload.js
-    ├── drag-arrange.js
-    ├── jquery-1.8.1.min.js
-    ├── jquery.fileupload.js
-    └──  jquery.ui.widget.js
+│   ├── ajax_file_upload.js
+│   ├── drag-arrange.js
+│   ├── jquery-1.8.1.min.js
+│   ├── jquery.fileupload.js
+│   └──  jquery.ui.widget.js
 │
+├── uploads          					//上传文件
+│   └── ......        					//所有上传的文件
 │
-├── Public          //对外访问目录，建议隐藏PHP实现
-│   └── demo        //Demo服务访问入口
+├── index.html          //系统项目入口文件
+├── upload.php            //项目后台代码文件
 │
-│
-├── Config          //项目接口公共配置，主要有：app.php, sys.php, dbs.php
-├── Data            //项目接口公共数据
-├── Language        //项目接口公共翻译
-├── Runtime         //项目接口运行文件目录，用于存放日记，可软链到别的区
-│
-│
-└── Demo            //应用接口服务，名称自取，可多组
-    ├── Api             //接口响应层
-    ├── Domain          //接口领域层
-    ├── Model           //接口持久层
-    └── Tests           //接口单元测试
+└── README.md            //应用接口服务，名称自取，可多组
 
 ```
 
