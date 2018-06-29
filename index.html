@@ -264,7 +264,7 @@
         $('.sku-draggable-element' + spec_id + '-' + spec_value_id).arrangeable();
         //sku图片上传
         $(obj).fileupload({
-            url: "{:__URL('APP_MAIN/upload/photoalbumupload')}",
+            url: "upload.php",
             dataType: 'json',
             formData: dataAlbum,
             add: function (e, data) {
