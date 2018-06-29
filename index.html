@@ -268,7 +268,6 @@
             dataType: 'json',
             formData: dataAlbum,
             add: function (e, data) {
-
                 var box_obj = $(this).parent().parent().parent().parent().parent().parent().parent().parent();
                 var spec_id = box_obj.attr("spec_id");
                 var spec_value_id = box_obj.attr("spec_value_id");
@@ -278,7 +277,7 @@
                 var html = "";
                 $.each(data.files, function (index, file) {
                     html += '<div class="upload-thumb sku-draggable-element' + spec_id + '-' + spec_value_id + ' sku-draggable-element"  nstype="' + file.name + '">';
-                    html += '<img nstype="goods_image" src="ADMIN_IMG/album/uoload_ing.gif">';
+                    html += '<img nstype="goods_image" src="album/uoload_ing.gif">';
                     html += '<input type="hidden"  class="sku_upload_img_id" nstype="goods_image" spec_id="" spec_value_id="" value="">';
                     html += '<div class="black-bg hide">';
                     html += '<div class="sku-off-box">&times;</div>';
@@ -316,11 +315,11 @@
                     $this.remove();
                     if (box_obj.find(".upload-thumb").length == 0) {
                         var img_html = '<div class="upload-thumb" id="default_uploadimg">';
-                        img_html += '<img src="ADMIN_IMG/album/default_goods_image_240.gif">';
+                        img_html += '<img src="album/default_goods_image_240.gif">';
                         img_html += '</div>';
                         box_obj.find(".sku-img-box").append(img_html);
                     }
-                    box_obj.find(".img-error").html("请检查您的上传参数配置或上传的文件是否有误，<a href='{:__URL('ADMIN_MAIN/config/uploadtype')}' target='_blank' style='text-decoration: underline;'>去设置</a>").show();
+                    box_obj.find(".img-error").html("请检查您的上传参数配置或上传的文件是否有误").show();
                 }
             }
         })
