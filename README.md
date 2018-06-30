@@ -23,7 +23,7 @@
 │   ├── drag-arrange.js
 │   ├── jquery-1.8.1.min.js
 │   ├── jquery.fileupload.js
-│   └──  jquery.ui.widget.js
+│   └── jquery.ui.widget.js
 │
 ├── uploads								//上传文件
 │   └── ......							//所有上传的文件
