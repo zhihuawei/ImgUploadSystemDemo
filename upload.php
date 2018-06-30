@@ -6,7 +6,7 @@
  * Author: ZHIHUA·WEI
  * Date: 2018/6/29
  * Time: 上午 9:08
- * Project: 多图片上传DEMO()
+ * Project: 多图片上传DEMO(可拖拽)
  * Power: 商家功能模块-商家分组控制器
  * =======================================
  */
