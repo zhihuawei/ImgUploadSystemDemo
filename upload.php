@@ -2,8 +2,8 @@
 
 /**
  * =======================================
- * Created by WeiBang Technology.
- * Author: Wei ZhiHua
+ * Created by ZHIHUA·WEI
+ * Author: ZHIHUA·WEI
  * Date: 2017/8/16 0016
  * Time: 上午 8:49
  * Project: 医美商城
